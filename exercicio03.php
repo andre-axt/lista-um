@@ -22,7 +22,7 @@
     <?php
 
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            if(isset($_POST ['verificar_positivo'])){
+            if(isset($_POST ['vericar_positivo'])){
                 $numero = $_POST['numero_positivo'];
 
                 $ehpositivo = true;
@@ -36,7 +36,5 @@
         }
 
     ?>
-</body>
-</html>
 </body>
 </html>

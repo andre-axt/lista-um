@@ -17,7 +17,7 @@
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             if(isset($_POST ['verificar_fatorial'])){
                 $numero = $_POST['numero_fatorial'];
-                $resultado;
+                $resultado = 0;
 
                 if($numero < 0){
                     $numero = $numero * (-1);
